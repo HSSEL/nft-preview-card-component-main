@@ -3,6 +3,8 @@
 
 body{
     background-color:  hsl(217, 54%, 11%);
+    padding-left: 450px;
+    padding-top: 50px;
 }
 section{
     background-color: hsl(216, 50%, 16%);
@@ -25,7 +27,7 @@ p{
     color: hsl(215, 51%, 70%);}
 .bloc{display: flex;
 flex-direction: row;
-justify-content:space-around }
+justify-content:space-around}
 .item1{
     display: flex;
     color: hsl(178, 100%, 50%);}
@@ -34,4 +36,36 @@ justify-content:space-around }
     color:hsl(215, 51%, 70%) ;}
 .bloc img{
     margin-right: 8px;
+}
+hr {
+    display: block;
+    height:0px;
+    width: 300px;
+    border: 0;
+    border-top: 1px solid hsl(215, 51%, 70%);
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+.card-info__creator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.creator__photo {
+    width: 33px;
+    border: 1px solid hsl(0, 0%, 100%);;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.creator__name {
+    font-weight: 300;
+    font-size: .875rem;
+}
+
+.name {
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
 }
