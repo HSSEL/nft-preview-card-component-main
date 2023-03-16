@@ -9,6 +9,7 @@ body{
 section{
     background-color: hsl(216, 50%, 16%);
     width: 320px;
+    height: 545px;
     padding-left: 20px;
     padding-top: 20px;
     border-radius: 12px;
@@ -27,13 +28,16 @@ p{
     color: hsl(215, 51%, 70%);}
 .bloc{display: flex;
 flex-direction: row;
-justify-content:space-around}
+justify-content:space-between;
+border: none;
+padding-bottom: 5px;}
 .item1{
     display: flex;
     color: hsl(178, 100%, 50%);}
 .item2{ 
     display: flex;
-    color:hsl(215, 51%, 70%) ;}
+    color:hsl(215, 51%, 70%) ;
+   padding-right: 20px;}
 .bloc img{
     margin-right: 8px;
 }
@@ -45,6 +49,7 @@ hr {
     border-top: 1px solid hsl(215, 51%, 70%);
     margin: 1em 0;
     padding: 0;
+
 }
 
 
@@ -52,6 +57,7 @@ hr {
     display: flex;
     align-items: center;
     text-align: center;
+   
 }
 .creator__photo {
     width: 33px;
@@ -62,7 +68,7 @@ hr {
 
 .creator__name {
     font-weight: 300;
-    font-size: .875rem;
+    font-size: 18px;
 }
 
 .name {
