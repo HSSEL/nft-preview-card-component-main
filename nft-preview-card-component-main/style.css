@@ -18,6 +18,7 @@ section{
 
 .main-img{
 width: 300px;
+border-radius: 10px;
 }
 
 h1{color:  hsl(0, 0%, 100%);
@@ -75,3 +76,19 @@ hr {
     color: hsl(0, 0%, 100%);
     cursor: pointer;
 }
+h1:active{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.name:active{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.main-img:active { 
+    border: 2px solid hsl(178, 100%, 50%); 
+     background-image: url('images/icon-view.svg');
+    cursor: pointer;
+
+}
+
